@@ -1,0 +1,26 @@
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Alembic (generated later)
+alembic/versions/*.pyc
